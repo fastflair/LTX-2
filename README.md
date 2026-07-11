@@ -25,8 +25,7 @@ Download the relevant [models](https://huggingface.co/Lightricks/LTX-2.3) or use
 
 ```bash
 hf auth login
-hf download Lightricks/LTX-2.3 \
-    ltx-2.3-22b-distilled-1.1.safetensors ltx-2.3-spatial-upscaler-x2-1.1.safetensors --local-dir models/ltx-2.3
+hf download Lightricks/LTX-2.3 ltx-2.3-22b-distilled-1.1.safetensors ltx-2.3-spatial-upscaler-x2-1.1.safetensors ltx-2.3-22b-distilled-lora-384-1.1.safetensors --local-dir models/ltx-2.3
 hf download google/gemma-3-12b-it-qat-q4_0-unquantized --local-dir models/gemma-3-12b
 hf download Lightricks/LTX-2.3-fp8 ltx-2.3-22b-distilled-fp8.safetensors --local-dir models/ltx-2.3
 
